@@ -1,0 +1,5 @@
+//default room loading
+room_caption=game;
+set_application_title=game;
+
+room_speed=global.fpsLimit;

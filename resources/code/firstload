@@ -1,0 +1,12 @@
+//this is the first loading screen shit-
+settLoad();
+
+global.loadeditmap = 0; //level editor variable; checks whether the level editor should load the level.
+
+//
+
+//Level config
+ini_open('level.load');
+
+
+defLoad();

@@ -1,0 +1,19 @@
+//Load sprites
+//sprite_load() usage: sprite_load('File', Image Number);
+
+//Green Player
+global.sprPlayerRightG = sprite_load('player\player-right-g.png', 0);
+global.sprPlayerLeftG = sprite_load('player\player-left-g.png', 0);
+global.sprPlayerUpG = sprite_load('player\player-up-g.png', 0);
+global.sprPlayerDownG = sprite_load('player\player-down-g.png', 0);
+//Green Player Animations
+//global.anmPlayerRightG = sprite_load('player\player-g-anim\player ')
+
+//Blue Player
+global.sprPlayerRightB = sprite_load('player\player-right-b.png', 0);
+global.sprPlayerLeftB = sprite_load('player\player-left-b.png', 0);
+global.sprPlayerUpB = sprite_load('player\player-up-b.png', 0);
+global.sprPlayerDownB = sprite_load('player\player-down-b.png', 0);
+
+//Blocks
+global.sprSolidMask = sprite_load('solid\solid16.png', 0);

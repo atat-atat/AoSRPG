@@ -1,0 +1,4 @@
+//settings loader
+ini_open("config.ini");
+global.fpsLimit = ini_read_real("config","fps",30);
+ini_close();

@@ -1,0 +1,5 @@
+//Sprite direction system
+if dir = "left" {sprite_index=global.playerLeftG;}
+if dir = "right" {sprite_index=global.playerRightG;}
+if dir = "up" {sprite_index=global.playerUpG;}
+if dir = "down" {sprite_index=global.playerDownG;}

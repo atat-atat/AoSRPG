@@ -1,0 +1,16 @@
+//Sprite config
+
+//Green Player
+global.playerRightG = global.sprPlayerRightG;
+global.playerLeftG  = global.sprPlayerLeftG;
+global.playerUpG    = global.sprPlayerUpG;
+global.playerDownG  = global.sprPlayerDownG;
+
+//Blue Player
+global.playerRightB = global.sprPlayerRightB;
+global.playerLeftB  = global.sprPlayerLeftB;
+global.playerUpB    = global.sprPlayerUpB;
+global.playerDownB  = global.sprPlayerDownB;
+
+//Solids
+global.blockTest        = global.sprSolidMask;

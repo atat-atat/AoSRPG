@@ -1,0 +1,7 @@
+//Texture resource loader (THIS IS NOT USED CURRENTLY)
+if directory_exists(working_directory + '\resources\textures\')
+{
+    execute_file(working_directory+'\resources\textures\gfx.load',0);
+} else {
+    show_error("Directory does not exist!", false);
+}
